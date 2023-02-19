@@ -29,3 +29,6 @@ Follow the steps:
 - git clone
 - npm i
 - ng serve
+
+s3Bucket : http://my-e-shop-amol-task2-auto-deploy.s3-website-us-east-1.amazonaws.com/
+CloudFront: https://d32lvjknfusqjk.cloudfront.net/
