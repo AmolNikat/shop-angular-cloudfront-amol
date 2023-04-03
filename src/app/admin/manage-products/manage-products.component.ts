@@ -23,6 +23,7 @@ export class ManageProductsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    localStorage.setItem('authorizationToken', 'Basic QW1vbE5pa2F0OlRFU1RfUEFTU1dPUkQ=')
     this.products$ = this.productsService.getProducts();
   }
 
